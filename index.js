@@ -6284,10 +6284,6 @@ let elements = [
             block: "s"
         }
 ]
-
-app.get('/', (req, res) => {
-    res.send('<h1>Hello World!</h1>')
-})
   
 app.get('/api/elements', (req, res) => {
     res.json(elements)
